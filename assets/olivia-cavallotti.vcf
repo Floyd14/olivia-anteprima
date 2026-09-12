@@ -1,0 +1,13 @@
+BEGIN:VCARD
+VERSION:4.0
+KIND:individual
+FN:Olivia Cavallotti
+N:Cavallotti;Olivia;;;
+ORG:Studio Legale Cavallotti
+TITLE:Avvocata
+TEL;TYPE=work;VALUE=uri:tel:+390249541900
+EMAIL;TYPE=work;PREF=1:olivia.cavallotti@gmail.com
+EMAIL;TYPE=work:olivia.cavallotti@milano.pecavvocati.it
+ADR;TYPE=work:;;Via della Signora\, 6;Milano;;20122;Italia
+URL:https://www.studiolegalecavallotti.it
+END:VCARD

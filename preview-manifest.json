@@ -1,13 +1,18 @@
 {
-  "source_commit": "474779303eb795aaf347be68e9a0e0eb4e21281b",
+  "source_commit": "2074c727319e6a4f85c3bc76a6f33e34afe9b14b",
   "mode": "preview",
   "files": {
-    "index.html": "86194e3a90a2bfc9c436246eab56b3f80ea8cdc9baa50f0faab72849550c7d8b",
-    "domiciliazioni.html": "7ce7c3d4c14d2c68b25181c0724bc0a145bc7212fd28fba17702e368719bb70c",
-    "robots.txt": "331ea9090db0c9f6f597bd9840fd5b171830f6e0b3ba1cb24dfa91f0c95aedc1",
-    "privacy.html": "b73d7bec66b11cbd23df2acfe5f295d342682c6c3e3aeff293bfba7e659f1c78",
+    "assets/biglietto-anteprima.pdf": "53c232985f848a68633397c71d7978b5902c03f4989f3ee4c896a420d7fbfe46",
+    "assets/biglietto-stampa.pdf": "7e1478472508a14d26d41743bfe4cc8ead2aef8fb18ce826b52883cf07da49d2",
+    "assets/olivia-cavallotti.vcf": "639d15a955e1a09fa40579099cdabacd046cc5c71abe7f20630692f5c0b29bac",
     "assets/olivia.png": "a34e55ae33e00748a19eb6db8aa8e5bb303009fd50dbd60b5652e9e2878b434d",
-    "assets/style.css": "85ce2845a409fe86c7303de468b415abe379104325587c79a28b418c8ee9f9f4",
-    "assets/site.js": "c59da9a30aed34f0efb72dabde3c34f3338b76560a6a3714889381e193a6f84a"
+    "assets/qr-sito.svg": "397bf43045fb81a56c03478d1c8f996c58032f0bba9052d38513116a0cb3e58b",
+    "assets/site.js": "c59da9a30aed34f0efb72dabde3c34f3338b76560a6a3714889381e193a6f84a",
+    "assets/style.css": "07820f2445ee1f1fe65d9ef49e550883b5dc76afebe2b99e1c49aff7153bf4a6",
+    "biglietto.html": "a0b16779fffdbaa27eb4fbb1da7bd4d5eafd19b9e0fc23fdcaa303e6a3f9954c",
+    "domiciliazioni.html": "eb1fc2ac82d4974d611eaa041b0787561507efa822bc951dae26f2d2fbf88d48",
+    "index.html": "83e7701c123bf2a5f988978cee0d88a44387d12e259c7a68e6da24e3a96de67f",
+    "privacy.html": "cb9102db65d53d635b23afdfb54f92704c7383aa049f1891f14d119e0f02b5de",
+    "robots.txt": "331ea9090db0c9f6f597bd9840fd5b171830f6e0b3ba1cb24dfa91f0c95aedc1"
   }
 }

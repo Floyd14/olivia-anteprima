@@ -934,3 +934,35 @@ details[open] .plus{
 .footer-links > a { margin-left: auto; }
 
 .site-credit { font-size: 10px; }
+
+/* Business card: shared contacts and downloadable print files. */
+.card-page { padding-top: 42px; }
+.card-intro { margin-bottom: 48px; }
+.card-intro h1 { font-size: clamp(48px, 5.5vw, 76px); margin: 20px 0; }
+.card-intro > p:last-child { color: var(--muted); }
+.card-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr); gap: 72px; align-items: start; }
+.digital-card { border: 1px solid var(--line); background: #fffdf9; padding: 38px; box-shadow: 0 14px 45px #302e2b0a; }
+.card-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 38px; }
+.card-top .eyebrow { text-align: right; line-height: 1.8; }
+.digital-card h2 { font-size: clamp(40px, 4.3vw, 60px); }
+.card-role { font-size: 10px; letter-spacing: .12em; margin-top: 18px; }
+.card-contacts { margin: 30px 0; padding-top: 24px; border-top: 1px solid var(--line); font-size: 14px; }
+.card-contacts > a { display: block; margin: 12px 0; }
+.card-contacts a { overflow-wrap: anywhere; }
+.card-contacts p { font-size: 11px; margin-top: 16px; }
+.card-contacts p span { display: block; font-size: 9px; letter-spacing: .1em; margin-bottom: 4px; color: var(--muted); }
+.card-contacts address { font-size: 13px; font-style: normal; margin-top: 22px; color: var(--muted); }
+.card-save { display: flex; justify-content: space-between; gap: 16px; }
+.card-help { font-size: 12px; line-height: 1.6; color: var(--muted); margin-top: 16px; }
+.card-tools h2 { font-size: clamp(32px, 3.5vw, 44px); margin: 14px 0 20px; }
+.card-tools section > p:not(.eyebrow):not(.card-help):not(.print-spec) { font-size: 14px; color: var(--muted); }
+.qr-link { display: flex; align-items: center; flex-wrap: wrap; gap: 24px; margin: 24px 0 14px; font-size: 12px; color: var(--wine); }
+.qr-link img { background: white; width: 160px; height: 160px; }
+.card-tools .text-link { font-size: 12px; }
+.card-print { border-top: 1px solid var(--line); margin-top: 38px; padding-top: 30px; }
+.print-actions { display: flex; align-items: flex-start; flex-direction: column; gap: 18px; margin: 24px 0; }
+.print-actions .button { font-size: 12px; padding-inline: 20px; }
+.print-spec { font-size: 12px; color: var(--wine); }
+.contact-card-link { display: inline-block; margin-top: 26px; font-size: 13px; border-bottom: 1px solid #d7c3c4; padding-bottom: 5px; }
+@media(max-width: 900px) { .card-grid { gap: 34px; } .digital-card { padding: 28px; } }
+@media(max-width: 760px) { .card-grid { grid-template-columns: minmax(0, 1fr); gap: 42px; } .card-intro { margin-bottom: 30px; } .digital-card { padding: 28px 24px; } }
