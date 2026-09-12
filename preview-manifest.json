@@ -1,5 +1,5 @@
 {
-  "source_commit": "e87b56edd74f3a1576eb63edb6e04b441aec56fd",
+  "source_commit": "fa48dfb6620672180478706d15ea76d4ad59b0d0",
   "mode": "preview",
   "files": {
     "assets/biglietto-anteprima.pdf": "53c232985f848a68633397c71d7978b5902c03f4989f3ee4c896a420d7fbfe46",
@@ -10,10 +10,10 @@
     "assets/qr-sito.svg": "397bf43045fb81a56c03478d1c8f996c58032f0bba9052d38513116a0cb3e58b",
     "assets/site.js": "c59da9a30aed34f0efb72dabde3c34f3338b76560a6a3714889381e193a6f84a",
     "assets/style.css": "76d2aba3b83e4fff52008ca57fab15cb07a78cd5076e728c6c85babee0ef2e37",
-    "biglietto.html": "24a24edcdec4c5a8b1947277e15adcf55976949870662ccf4b5ad52099b6a51d",
-    "domiciliazioni.html": "2800d8fa354c899d59153001194a1c34e8ae7ce2455db190c76129dd3b0168b1",
-    "index.html": "07b3b6c92e8253137f98e1f8c0cb64516f1c93fa0722c38f4ece555aca73c219",
-    "privacy.html": "60e871914cd01b3e92214710f22fbf5d28d0fcca46894a55a87dfe13f9f2ec13",
+    "biglietto.html": "a09221ba03332099b858a90df1d73bfee6a92518dd35baf017948f336f63af25",
+    "domiciliazioni.html": "d6c6cc7113e8062fb4ef0f94c20c6f7e632548abadafc0d41d3d7f536160bd15",
+    "index.html": "1b59d1f1afa7b11e71c3858c3c1490f2581c5d20c925dd2330e05107d6b35115",
+    "privacy.html": "91f3dcd07973632df5d03920345aaaae42002b7ad33354be6493c375ed41d1f7",
     "robots.txt": "331ea9090db0c9f6f597bd9840fd5b171830f6e0b3ba1cb24dfa91f0c95aedc1"
   }
 }
