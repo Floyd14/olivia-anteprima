@@ -1,0 +1,13 @@
+{
+  "source_commit": "474779303eb795aaf347be68e9a0e0eb4e21281b",
+  "mode": "preview",
+  "files": {
+    "index.html": "86194e3a90a2bfc9c436246eab56b3f80ea8cdc9baa50f0faab72849550c7d8b",
+    "domiciliazioni.html": "7ce7c3d4c14d2c68b25181c0724bc0a145bc7212fd28fba17702e368719bb70c",
+    "robots.txt": "331ea9090db0c9f6f597bd9840fd5b171830f6e0b3ba1cb24dfa91f0c95aedc1",
+    "privacy.html": "b73d7bec66b11cbd23df2acfe5f295d342682c6c3e3aeff293bfba7e659f1c78",
+    "assets/olivia.png": "a34e55ae33e00748a19eb6db8aa8e5bb303009fd50dbd60b5652e9e2878b434d",
+    "assets/style.css": "85ce2845a409fe86c7303de468b415abe379104325587c79a28b418c8ee9f9f4",
+    "assets/site.js": "c59da9a30aed34f0efb72dabde3c34f3338b76560a6a3714889381e193a6f84a"
+  }
+}
