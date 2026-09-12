@@ -87,27 +87,8 @@ img{
   min-height:112px;
   gap:24px
 }
-.brand{
-  display:flex;
-  align-items:center;
-  gap:12px;
-  font-family:var(--serif);
-  letter-spacing:.09em;
-  font-size:20px;
-  line-height:1.2
-}
-.brand small{
-  display:block;
-  font:9px/1.8 -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
-  letter-spacing:.17em;
-  margin-top:5px
-}
-.brand-mark{
-  font:italic 58px/.9 var(--serif);
-  color:var(--wine);
-  letter-spacing:-.1em;
-  margin-right:7px
-}
+.brand{display:flex;align-items:center;flex-shrink:0}
+.brand-logo{width:200px;height:auto;mix-blend-mode:multiply}
 .header nav{
   display:flex;
   gap:30px;
@@ -546,12 +527,7 @@ details[open] .plus{
   justify-content:space-between;
   gap:24px
 }
-.footer .brand{
-  font-size:15px
-}
-.footer .brand-mark{
-  font-size:42px
-}
+.footer .brand-logo{width:150px}
 .footer p,.footer>a:not(.brand){
   font-size:10px;
   color:var(--muted)
@@ -650,15 +626,7 @@ details[open] .plus{
     flex-wrap:wrap;
     padding-block:19px
   }
-  .brand{
-    font-size:17px
-  }
-  .brand-mark{
-    font-size:46px
-  }
-  .brand small{
-    font-size:8px
-  }
+  .brand-logo{width:170px}
   .menu-toggle:not([hidden]){
     display:flex;
     gap:13px;
@@ -935,34 +903,25 @@ details[open] .plus{
 
 .site-credit { font-size: 10px; }
 
-/* Business card: shared contacts and downloadable print files. */
-.card-page { padding-top: 42px; }
-.card-intro { margin-bottom: 48px; }
-.card-intro h1 { font-size: clamp(48px, 5.5vw, 76px); margin: 20px 0; }
-.card-intro > p:last-child { color: var(--muted); }
-.card-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr); gap: 72px; align-items: start; }
-.digital-card { border: 1px solid var(--line); background: #fffdf9; padding: 38px; box-shadow: 0 14px 45px #302e2b0a; }
-.card-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 38px; }
-.card-top .eyebrow { text-align: right; line-height: 1.8; }
-.digital-card h2 { font-size: clamp(40px, 4.3vw, 60px); }
-.card-role { font-size: 10px; letter-spacing: .12em; margin-top: 18px; }
-.card-contacts { margin: 30px 0; padding-top: 24px; border-top: 1px solid var(--line); font-size: 14px; }
-.card-contacts > a { display: block; margin: 12px 0; }
-.card-contacts a { overflow-wrap: anywhere; }
-.card-contacts p { font-size: 11px; margin-top: 16px; }
-.card-contacts p span { display: block; font-size: 9px; letter-spacing: .1em; margin-bottom: 4px; color: var(--muted); }
-.card-contacts address { font-size: 13px; font-style: normal; margin-top: 22px; color: var(--muted); }
-.card-save { display: flex; justify-content: space-between; gap: 16px; }
-.card-help { font-size: 12px; line-height: 1.6; color: var(--muted); margin-top: 16px; }
-.card-tools h2 { font-size: clamp(32px, 3.5vw, 44px); margin: 14px 0 20px; }
-.card-tools section > p:not(.eyebrow):not(.card-help):not(.print-spec) { font-size: 14px; color: var(--muted); }
-.qr-link { display: flex; align-items: center; flex-wrap: wrap; gap: 24px; margin: 24px 0 14px; font-size: 12px; color: var(--wine); }
-.qr-link img { background: white; width: 160px; height: 160px; }
-.card-tools .text-link { font-size: 12px; }
-.card-print { border-top: 1px solid var(--line); margin-top: 38px; padding-top: 30px; }
-.print-actions { display: flex; align-items: flex-start; flex-direction: column; gap: 18px; margin: 24px 0; }
-.print-actions .button { font-size: 12px; padding-inline: 20px; }
-.print-spec { font-size: 12px; color: var(--wine); }
+/* Compact contact card: QR and a single download action. */
+.card-page { padding-block: 28px 64px; }
+.contact-card { width: 100%; max-width: 400px; margin: 0 auto; padding: 30px 32px; text-align: center; background: #fffdf9; border: 1px solid var(--line); border-top: 3px solid var(--wine); border-radius: 4px; box-shadow: 0 12px 36px #302e2b08; }
+.card-label { font-size: 9px; letter-spacing: .15em; color: var(--muted); }
+.contact-card h1 { margin-top: 12px; font-size: clamp(28px, 5vw, 34px); letter-spacing: -.035em; }
+.card-role { margin-top: 6px; font-size: 12px; color: var(--muted); }
+.card-qr { display: block; width: fit-content; margin: 24px auto 0; padding: 10px; background: #fff; border: 1px solid #eee9e1; border-radius: 3px; }
+.card-qr img { width: 176px; height: 176px; }
+.card-hint { margin-top: 9px; font-size: 11px; color: var(--muted); }
+.card-details { display: grid; gap: 4px; margin: 19px 0 22px; font-size: 13px; }
+.card-details a { overflow-wrap: anywhere; }
+.card-download { display: flex; align-items: center; justify-content: space-between; width: 100%; min-height: 48px; padding: 12px 20px; font-size: 14px; }
 .contact-card-link { display: inline-block; margin-top: 26px; font-size: 13px; border-bottom: 1px solid #d7c3c4; padding-bottom: 5px; }
-@media(max-width: 900px) { .card-grid { gap: 34px; } .digital-card { padding: 28px; } }
-@media(max-width: 760px) { .card-grid { grid-template-columns: minmax(0, 1fr); gap: 42px; } .card-intro { margin-bottom: 30px; } .digital-card { padding: 28px 24px; } }
+@media(max-width:760px) {
+  .card-page { padding-block: 12px 36px; }
+  .contact-card { padding: 24px; }
+}
+@media(max-width:360px) {
+  .card-page { padding-inline: 16px; }
+  .contact-card { padding: 22px 18px; }
+  .contact-card h1 { font-size: 27px; }
+}
